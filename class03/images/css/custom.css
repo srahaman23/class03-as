@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;}
+img{
+    max-width: 100%;
+}    
+
+header{
+    background-color: #03283c;
+    padding:  12px 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 33.33%;
+}
+.logo{flex-basis: 20%;
+}
+nav{
+    flex-basis: 80%;
+    
+}
+.logo img {
+     
+}
+
+
+nav ul{margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+    
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    letter-spacing: 0.2px;padding: 5px 20px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+    nav ul li a:hover {
+        background-color: rgb(30 118 105);
+    
+    }
+    .Hero_banner_section{
+        background-color: #521919;
+        background-image: url(../background.jpg);
+        height: 680px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-blend-mode: normal;
+
+    }
+    .Hero_banner_section h1{
+        font-size: 32px;
+        color: #121214;
+        background-image: url(../background.jpg);
+        margin: 0;
+        background-size: cover;
+        background-position: center;
+        -webkit-text-fill-color: #133e9d;
+        -webkit-background-clip: text;
+        font-weight: 400; 
+        text-transform:capitalize;
+        background-attachment: fixed;
+    
+    }
+.gallery_section{
+    padding: 50px;
+}
+.gallery{
+    flex-basis: 33.33%;
+    padding: 10px;
+   
+}
+.gallery img{
+    display: block;
+}
+
+.team_section{
+    padding: 10px 0;
+    background-color: aqua;
+}
+.team_section .container{
+    overflow: scroll;
+ }
+.team{
+    display: flex;gap: 20px;
+
+}
+.team div{
+    width: 100px;
+}
+
